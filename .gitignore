@@ -22,7 +22,6 @@ release
 backend/context_files/
 
 # Editor directories and files
-.vscode/.debug.env
 .idea
 .DS_Store
 *.suo
@@ -39,10 +38,6 @@ yarn.lock
 /playwright-report/
 /playwright/.cache/
 
-.env
-.env.local
-.env.production
-.env.development
 client_secret_*.json
 
 .claude/
@@ -78,3 +73,4 @@ server/celerybeat-schedule*
 
 # TypeScript incremental build info
 *.tsbuildinfo
+config.bat
